@@ -34,5 +34,7 @@ git clone --depth=1 https://github.com/sirpdboy/luci-theme-opentopd package/luci
 svn export https://github.com/haiibo/packages/trunk/luci-theme-atmaterial package/luci-theme-atmaterial
 svn export https://github.com/haiibo/packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
 svn export https://github.com/haiibo/packages/trunk/luci-theme-netgear package/luci-theme-netgear
+make package/feeds/packages/ttyd/clean
+make package/feeds/packages/ttyd/compile -j8 V=s
 
 
